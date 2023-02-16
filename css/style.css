@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700,800,900&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	background-color: rgba(128, 128, 128, 0.342);
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 300px 0px;
+	font-family: "Roboto";
+	color: #FFF;
+}
+
+/* ______________________________________________________ */
+
+.impact_background-pudding {
+background: #29C3BE url('../img/impact/blob.png') 1180px 0 / 695px 308px no-repeat;
+padding: 112px 0px 212px 0px;
+}
+
+.impact__body {
+max-width: 1020px;
+margin: auto;
+}
+
+.impact__header {
+margin-bottom: 79px;
+}
+
+.impact__text-contant {
+display: inline-block;
+max-width: 411px;
+}
+
+.impact__logotip {
+margin-bottom: 32px;
+}
+
+.logotip {
+font-weight: 700;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+padding-left: 36px;
+}
+.logotip::before {
+content: "";
+display: inline-block;
+width: 20px;
+height: 20px;
+background: url('../img/impact/icon.svg') 0 0 no-repeat;
+margin: 0px 16px -2px -36px;
+}
+
+.impact__title {
+font-weight: 900;
+font-size: 36px;
+line-height: 1.17;
+}
+
+.impact__boximg {
+text-align: right;
+margin-top: -325px;
+}
+
+.impact__img {
+border-radius: 40px;
+}
+
+.impact__row {
+font-size: 0;
+}
+
+.item-impact {
+display: inline-block;
+max-width: 237px;
+}
+
+.item-impact:not(:last-child) {
+margin-right: 24px;
+}
+
+.item-impact__img {
+margin-right: 11px;
+}
+
+.item-impact__text-content {
+display: inline-block;
+width: 150px;
+}
+
+.item-impact__number {
+font-weight: 900;
+font-size: 36px;
+line-height: 1.17;
+margin-bottom: 3px;
+}
+
+.item-impact__text {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.15px;
+color: #5D62B5;
+}
+
+
+
+
+
+
+
+
